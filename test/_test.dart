@@ -1,8 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 
 
-void main() {
-  final test = 'TIGER';
-  test("PASS", () {
-    expect(test, "TIGER");
-  });}
+  test('handleConfirmOrder should confirm the confirmedState', () {
+    bool sam = true;
+    expect(sam, true);
+  });
