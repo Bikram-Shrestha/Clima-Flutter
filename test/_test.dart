@@ -1,7 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
+const sam = true;
 
 
-  test('handleConfirmOrder should confirm the confirmedState', () {
-    bool sam = true;
-    expect(sam, true);
-  });
+test('handleConfirmOrder should confirm the confirmedState', () =>expect(sam, true));
